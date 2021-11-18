@@ -1,0 +1,43 @@
+root { 
+    display: block;
+}
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 530px;
+    height: 600px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        background: url(../assets/img/logoLink.png) no-repeat left 100px;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+        font-family: arial;
+}
+
+.circle {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    border-radius:100%;
+    border:2px solid black;
+    width:150px;
+    height:150px;
+}
+
+div.rele_ligado {
+    background-color: yellow;
+
+}
+
+div.rele_desligado {
+    background-color: white;
+}
+
+#botao{
+    position: absolute;
+    right: 30px;
+    top: 330px;
+}
